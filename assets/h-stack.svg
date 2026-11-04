@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="64" viewBox="0 0 1280 64">
+<style>@keyframes run{0%{transform:translateX(-200px)}100%{transform:translateX(1280px)}}.run{animation:run 4s linear infinite}</style>
+<text x="0" y="34" style="font:700 15px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#ff7a1a;letter-spacing:3px">// 02</text>
+<text x="70" y="34" style="font:800 26px 'Segoe UI','Inter',-apple-system,Helvetica,Arial,sans-serif;fill:#e6edf3;letter-spacing:1px">TOOLKIT</text>
+<text x="1280" y="34" text-anchor="end" style="font:500 14px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#7d8590">what I build with</text>
+<line x1="0" y1="54" x2="1280" y2="54" stroke="#1d2430" stroke-width="2"/>
+<rect class="run" x="0" y="53" width="160" height="3" fill="#ff7a1a"/>
+</svg>

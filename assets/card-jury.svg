@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="620" height="400" viewBox="0 0 620 400">
+<defs>
+  <clipPath id="cl"><rect width="620" height="400" rx="16"/></clipPath>
+  <linearGradient id="sh" x1="0" y1="0" x2="0" y2="1"><stop offset="0.45" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117" stop-opacity="1"/></linearGradient>
+</defs>
+<style>
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+@keyframes dash{to{stroke-dashoffset:-40}}
+@keyframes fl{0%{opacity:.2}100%{opacity:1}}
+@keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes in{0%{opacity:0}100%{opacity:1}}
+.pulse{animation:pulse 1.4s ease-in-out infinite}
+</style>
+<g clip-path="url(#cl)">
+  <rect width="620" height="400" fill="#0d1117"/>
+  <g><rect width="620" height="230" fill="#0a0e14"/><g stroke="#1d2430" stroke-opacity=".6"><line x1="0" y1="20" x2="620" y2="20"/><line x1="0" y1="40" x2="620" y2="40"/><line x1="0" y1="60" x2="620" y2="60"/><line x1="0" y1="80" x2="620" y2="80"/><line x1="0" y1="100" x2="620" y2="100"/><line x1="0" y1="120" x2="620" y2="120"/><line x1="0" y1="140" x2="620" y2="140"/><line x1="0" y1="160" x2="620" y2="160"/><line x1="0" y1="180" x2="620" y2="180"/><line x1="0" y1="200" x2="620" y2="200"/><line x1="0" y1="220" x2="620" y2="220"/></g><text x="30" y="64" style="font:500 13.5px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#e6edf3;white-space:pre;animation:in .3s 0.50s both">$ forgejury grade SPEC.md build-a build-b build-c</text><text x="30" y="86" style="font:500 13.5px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#7d8590;white-space:pre;animation:in .3s 0.95s both">=== Forgejury verdict ===</text><text x="30" y="108" style="font:500 13.5px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#3fb950;white-space:pre;animation:in .3s 1.40s both">  PASS      build-a</text><text x="30" y="130" style="font:500 13.5px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#f85149;white-space:pre;animation:in .3s 1.85s both">  FAIL      build-b  claimed 5 tests passed, observed 1</text><text x="30" y="152" style="font:500 13.5px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#f85149;white-space:pre;animation:in .3s 2.30s both">  FAIL      build-b  claimed CHANGELOG.md, file missing</text><text x="30" y="174" style="font:500 13.5px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#d29922;white-space:pre;animation:in .3s 2.75s both">  DIVERGES  build-c  disagrees on &#x27;add-negative&#x27;</text><text x="30" y="196" style="font:500 13.5px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#7d8590;white-space:pre;animation:in .3s 3.20s both">$ echo $?   →  1</text></g>
+  <rect width="620" height="230" fill="url(#sh)"/>
+  <line x1="0" y1="230" x2="620" y2="230" stroke="#1d2430"/>
+  <rect x="20" y="18" width="46" height="24" rx="6" fill="#07090d" fill-opacity="0.8" stroke="#1d2430"/>
+  <text x="43" y="35" text-anchor="middle" style="font:700 12px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#ff7a1a">04</text>
+  <g transform="translate(426,18)"><rect width="174" height="24" rx="12" fill="#07090d" fill-opacity="0.85" stroke="#1d2430"/>
+<circle cx="14" cy="12" r="4" fill="#f85149" class="pulse"/><text x="24" y="16.5" style="font:600 11.5px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#e6edf3">exit 0 is not proof</text></g>
+  <text x="28" y="264" style="font:600 12px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#ff7a1a;letter-spacing:2px">PYTHON  ·  ZERO DEPS  ·  CI</text>
+  <text x="28" y="298" style="font:800 28px 'Segoe UI','Inter',-apple-system,Helvetica,Arial,sans-serif;fill:#e6edf3">Forgejury</text>
+  <text x="28" y="328" style="font:400 16px 'Segoe UI','Inter',-apple-system,Helvetica,Arial,sans-serif;fill:#7d8590">A lie detector for AI coding agents. Checks every claim</text><text x="28" y="352" style="font:400 16px 'Segoe UI','Inter',-apple-system,Helvetica,Arial,sans-serif;fill:#7d8590">an agent makes against what&#x27;s actually on disk, and</text><text x="28" y="376" style="font:400 16px 'Segoe UI','Inter',-apple-system,Helvetica,Arial,sans-serif;fill:#7d8590">flags the build that disagrees with the rest.</text>
+  <g transform="translate(472.8,348)">
+    <rect width="119" height="30" rx="15" fill="none" stroke="#ff7a1a"/>
+    <text x="60" y="20" text-anchor="middle" style="font:700 13px ui-monospace,'SFMono-Regular','JetBrains Mono',Consolas,Menlo,monospace;fill:#ff7a1a;letter-spacing:1px">→ VIEW REPO</text>
+  </g>
+  <rect x="0.5" y="0.5" width="619" height="399" rx="16" fill="none" stroke="#1d2430"/>
+</g>
+</svg>
